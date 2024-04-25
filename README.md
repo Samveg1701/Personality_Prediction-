@@ -1,3 +1,20 @@
+# Text Classification using the MBTI Dataset
+
+## Project Brief
+
+This project utilizes the Myers-Briggs Type Indicator (MBTI) dataset to explore text classification techniques. The MBTI, developed by Katharine Cook Briggs and her daughter Isabel Briggs Myers, categorizes individuals into 16 distinct personality types based on four principal psychological functions: sensation, intuition, feeling, and thinking. Despite questions about its validity, the MBTI remains widely used across various domains. Our goal is to identify patterns in writing styles associated with MBTI types, assessing the test’s utility in analyzing, predicting, or categorizing behavior.
+
+## Dataset
+
+The dataset comprises approximately 8,000 entries, each including:
+- **Type/Class Label:** A 4-letter MBTI type code.
+- **Text:** Posts made by the individual, separated by "|||" (three pipe characters).
+
+We use this data to train a classifier that predicts personality types based on textual input, purely for educational purposes related to text classification.
+
+## Classifier Design and Evaluation
+
+
 ## Classifier Design and Evaluation
 
 ### Design
